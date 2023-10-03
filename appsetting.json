@@ -11,10 +11,10 @@
     "DefaultConnection": "server=prod-mysql-db.c4uhg87mgkd4.eu-west-1.rds.amazonaws.com;database=prod_mysql_db;user=accountms;password=*$cF16*j8Me%o#e*pz5QZUuAgHDgx0&1;"
   },
   "Microservices": {
-    "EventMSURL": "https://event.applebrie.net/api/",
-    "MailingISURL": "https://mailing.applebrie.net/api/",
-    "Mt4IntegrationServiceURL": "https://mt4wris.applebrie.net/api/",
-    "AppropriatenessTestURL": "https://approriatenesstest.applebrie.net/api/",
+    "EventMSURL": "https://event.narek.net/api/",
+    "MailingISURL": "https://mailing.narek.net/api/",
+    "Mt4IntegrationServiceURL": "https://mt4wris.narek.net/api/",
+    "AppropriatenessTestURL": "https://approriatenesstest.narek.net/api/",
     "IntroducingBrokerServiceURL": "https://ib.applebrie.net/api/",
     "MailingIntegrationServiceURL": "https://mailing.applebrie.net/api/",
     "Mt5IntegrationServiceURL": "https://mt5wris.applebrie.net/api/",
