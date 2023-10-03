@@ -1,0 +1,100 @@
+// For Production use ONLY (Do not modify)
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "server=prod-mysql-db.c4uhg87mgkd4.eu-west-1.rds.amazonaws.com;database=prod_mysql_db;user=accountms;password=*$cF16*j8Me%o#e*pz5QZUuAgHDgx0&1;"
+  },
+  "Microservices": {
+    "EventMSURL": "https://event.applebrie.net/api/",
+    "MailingISURL": "https://mailing.applebrie.net/api/",
+    "Mt4IntegrationServiceURL": "https://mt4wris.applebrie.net/api/",
+    "AppropriatenessTestURL": "https://approriatenesstest.applebrie.net/api/",
+    "IntroducingBrokerServiceURL": "https://ib.applebrie.net/api/",
+    "MailingIntegrationServiceURL": "https://mailing.applebrie.net/api/",
+    "Mt5IntegrationServiceURL": "https://mt5wris.applebrie.net/api/",
+    "TransactionMSURL": "https://transaction.applebrie.net/api/",
+    "OrganizationMSURL": "https://organization.applebrie.net/api/",
+    "TradingHistoryMSURL": "https://tradinghistory.applebrie.net/api/"
+  },
+  "DemoAccountConfigForEU": {
+    "GroupName": "demoFXGlobe-eur",
+    "Leverage": "30"
+  },
+  "DemoAccountConfigForFSInternational": {
+    "GroupName": "demoforex-usd",
+    "Leverage": "30"
+  },
+  "DemoAccountConfigForRevolution": {
+    "GroupName": "demoDen-USD",
+    "Leverage": "500"
+  },
+  "DemoAccountConfigForGreenLinePro": {
+    "GroupName": "demoDen-USD",
+    "Leverage": "200"
+  },
+  "MT5": {
+    "Brand2": {
+      "GroupName": "real\\GP-U",
+      "GroupNameUSD": "real\\GP-U",
+      "GroupNameEUR": "real\\GP-E",
+      "GroupNameGBP": "real\\GP-G",
+      "GroupNamePLN": "real\\GP-P",
+      "GroupNameBRL": "real\\GP-B",
+      "GroupNameBTC": "real\\GP-BTC",
+      "Leverage": "100",
+
+      "BrandAccountTypeGroupIdUSD": "1802",
+      "BrandAccountTypeGroupIdEUR": "1961",
+      "BrandAccountTypeGroupIdGBP": "1962",
+      "BrandAccountTypeGroupIdPLN": "1963",
+      "BrandAccountTypeGroupIdBRL": "1964",
+      "BrandAccountTypeGroupIdBTC": "1968",
+
+      "AccountRange": "10000-99999",
+      "TradingServerIp": "54.229.40.106",
+      "TradingServerLogin": "1016",
+      "TradingServerPassword": "qblx1jge"
+    },
+
+    "Brand21": {
+      "GroupName": "real\\GP-U",
+      "GroupNameUSD": "real\\GP-U",
+      "GroupNameEUR": "real\\GP-E",
+      "GroupNameGBP": "real\\GP-G",
+      "GroupNamePLN": "real\\GP-P",
+      "GroupNameBRL": "real\\GP-B",
+      "GroupNameBTC": "real\\GP-BTC",
+      "Leverage": "100",
+
+      "BrandAccountTypeGroupIdUSD": "1802",
+      "BrandAccountTypeGroupIdEUR": "1961",
+      "BrandAccountTypeGroupIdGBP": "1962",
+      "BrandAccountTypeGroupIdPLN": "1963",
+      "BrandAccountTypeGroupIdBRL": "1964",
+      "BrandAccountTypeGroupIdBTC": "1968",
+
+      "AccountRange": "100000-199999",
+      "TradingServerIp": "54.229.40.106",
+      "TradingServerLogin": "1016",
+      "TradingServerPassword": "qblx1jge"
+    },
+    "Brand2DemoAccount": {
+      "GroupNameUSD": "demo\\GP-RP7-U",
+      "Leverage": "300",
+      "AccountRange": "204000-299999",
+      "CurrencyIsoCode": "USD"
+    }
+  },
+  "MT5Rights": "499",
+  "MT5RightsReadonly": "503",
+  "MT5RightsCrm": "483",
+  "MT5RightsCrmReadonly": "487",
+  "BrandAccountUpgradeTextKey": "BrandAccountUpgradeText",
+  "DollarLikeCurrencies": "USD,USC,USDT,USDTTRC20,USDTERC20"
+}
